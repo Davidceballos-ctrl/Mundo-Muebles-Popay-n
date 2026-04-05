@@ -1,0 +1,45 @@
+{
+  "name": "Mundo Muebles Popayán",
+  "short_name": "MundoMuebles",
+  "description": "Sistema de Gestión Empresarial - Mundo Muebles Popayán",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D2D8E",
+  "theme_color": "#1A3DC8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Registro de Ventas",
+      "short_name": "Ventas",
+      "url": "/pos",
+      "description": "Registrar una nueva venta"
+    },
+    {
+      "name": "Inventario",
+      "short_name": "Inventario",
+      "url": "/productos/lista",
+      "description": "Ver inventario de productos"
+    },
+    {
+      "name": "Cotizaciones",
+      "short_name": "Cotizar",
+      "url": "/cotizaciones",
+      "description": "Crear y gestionar cotizaciones"
+    }
+  ]
+}

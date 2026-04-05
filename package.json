@@ -1,0 +1,50 @@
+{
+  "name": "mundo-muebles-popayan",
+  "version": "10.0.0",
+  "description": "Mundo Muebles Popayan · v10.0 — The Digital Curator (Stitch)",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "recharts": "^2.12.0",
+    "jspdf": "^2.5.1",
+    "dayjs": "^1.11.10",
+    "@supabase/supabase-js": "^2.43.0",
+    "write-excel-file": "^1.4.24"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.4.14",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "vitest": "^2.1.8",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "jsdom": "^25.0.1",
+    "@eslint/js": "^9.15.0",
+    "globals": "^15.12.0"
+  },
+  "overrides": {
+    "rollup": "^4.24.0",
+    "esbuild": "^0.25.0",
+    "cookie": "^0.7.0",
+    "path-to-regexp": "^8.0.0",
+    "ip": "^2.0.1",
+    "tough-cookie": "^4.1.4",
+    "semver": "^7.6.0",
+    "@babel/traverse": "^7.26.0",
+    "braces": "^3.0.3",
+    "micromatch": "^4.0.8",
+    "ws": "^8.18.0",
+    "tar-fs": "^3.0.6"
+  }
+}
