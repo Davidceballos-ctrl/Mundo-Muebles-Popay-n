@@ -1,25 +1,3 @@
-/**
- * initialData.js — Datos iniciales del sistema · v8.1-sec
- * Mundo Muebles Popayán
- *
- * ⚠️  SEGURIDAD — LEER ANTES DE DESPLEGAR:
- *
- *  1. Las contraseñas iniciales usan el prefijo PLAIN: para que se migren
- *     automáticamente a SHA-256 en el primer login de cada usuario.
- *
- *  2. ACCIÓN REQUERIDA ANTES DE PUBLICAR:
- *     a) Inicia sesión con cada cuenta y cambia la contraseña desde Usuarios.
- *     b) O usa el módulo Usuarios → Editar → Nueva contraseña.
- *     c) Nunca dejes estas contraseñas iniciales en producción.
- *
- *  3. Contraseñas temporales (cambiar en el primer acceso):
- *     gerencia@mundomuebles.com  →  MM$Admin2025!
- *     vendedor@mundomuebles.com  →  MM$Venta2025!
- *     bodega@mundomuebles.com    →  MM$Bodeg2025!
- *
- *  4. NO hay cuentas de demostración (admin123, ventas123, bodega123).
- *     Esas cuentas fueron eliminadas por seguridad.
- */
 
 export function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
