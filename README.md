@@ -1,39 +1,23 @@
-# 🪑 Mundo Muebles — Sistema POS v4.0
+# Sistema de Gestión Empresarial con IA
+Desarrollado por Brayan David Ceballos Córdoba
 
-**Moda en el Hogar · Popayán, Cauca**
+## ¿Qué es?
+Sistema funcional de gestión operativa desarrollado con Inteligencia 
+Artificial Generativa (Claude), implementado en entorno real en 
+Mundo Muebles Popayán.
 
-## Instalación y uso
+## Funcionalidades
+- Control de inventarios automatizado
+- Gestión de procesos administrativos
+- Optimización de tiempos de respuesta
 
-```bash
-npm install
-npm run dev
-```
+## Tecnologías
+- Inteligencia Artificial Generativa
+- Python
 
-## Cuentas de acceso (demo)
-
-| Correo                         | Contraseña  | Rol           |
-|--------------------------------|-------------|---------------|
-| admin@mundomuebles.com         | admin123    | Administrador |
-| ventas@mundomuebles.com        | ventas123   | Vendedor      |
-| bodega@mundomuebles.com        | bodega123   | Bodeguero     |
-
-## Permisos por rol
-
-| Función                          | Admin | Vendedor | Bodeguero |
-|----------------------------------|-------|----------|-----------|
-| Dashboard                        | ✅    | ✅       | ✅        |
-| Punto de Venta (POS)             | ✅    | ✅       | ❌        |
-| Historial de Ventas              | ✅    | ✅       | ❌        |
-| Lista de Productos               | ✅    | ✅       | ✅        |
-| Registrar / Editar Productos     | ✅    | ❌       | ✅        |
-| Eliminar Productos               | ✅    | ❌       | ❌        |
-| Kardex / Ajuste de Stock         | ✅    | ❌       | ✅        |
-| Proveedores                      | ✅    | ❌       | ✅        |
-| Compras (editar / eliminar)      | ✅    | ❌       | ✅        |
-| Clientes                         | ✅    | ✅       | ❌        |
-| Reportes con rango de fechas     | ✅    | ❌       | ❌        |
-| Usuarios                         | ✅    | ❌       | ❌        |
-| Exportar / Respaldo              | ✅    | ❌       | ❌        |
+## Resultado
+Reducción de tiempos operativos y mejora en toma de decisiones 
+en un negocio real del sector retail.
 
 ## Mejoras incluidas en v4.0
 
@@ -48,14 +32,3 @@ npm run dev
 9. **Respaldo completo** — exporta/importa todo el sistema a JSON desde Exportar
 10. **Archivos duplicados eliminados** — estructura limpia sin Login.jsx, OtherPages.jsx, Products.jsx
 
-## Respaldo de datos
-
-⚠️ Los datos se guardan en `localStorage`. Para no perderlos:
-- Ve a **Exportar > Respaldo completo** y descarga el `.json` regularmente
-- Al cambiar de equipo, restaura con el mismo botón
-
-## Próximos pasos sugeridos
-
-- Migrar a base de datos (Supabase, Firebase, o API propia)
-- Módulo de garantías vinculado a ventas
-- Notificaciones de stock bajo por WhatsApp
